@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float forceMax;
     [SerializeField] private float forceFactor;
     [SerializeField] private float timeFactor;
+    [SerializeField] private float bouncingForce;
     private Vector2 _clickStartPosition;
     private Vector2 _mouseCurrentPosition;
     private Rigidbody _rigidbody;
@@ -106,6 +107,6 @@ public class PlayerController : MonoBehaviour
 
     private void ShootUp()
     {
-        _rigidbody.AddForce(Vector3.up*forceMax,ForceMode.Impulse);
+        _rigidbody.AddForce(Vector3.up * bouncingForce, ForceMode.Impulse);
     }
 }
