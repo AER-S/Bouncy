@@ -15,17 +15,16 @@ MonoBehaviour:
   m_Children:
   - {fileID: 3}
   - {fileID: 12}
-  - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1280
     height: 883
-  m_MinSize: {x: 400, y: 200}
-  m_MaxSize: {x: 32384, y: 16192}
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 1280
+  controlID: -1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,9 +45,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 245
+    x: 242
     y: 73
-    width: 764
+    width: 733
     height: 502
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -60,25 +59,25 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 764, y: 481}
+  m_TargetSize: {x: 1920, y: 1080}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 1
+  m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 1
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -382
-    m_HBaseRangeMax: 382
-    m_VBaseRangeMin: -240.5
-    m_VBaseRangeMax: 240.5
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -87,7 +86,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -96,23 +95,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 764
+      width: 733
       height: 481
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 382, y: 240.5}
+    m_Scale: {x: 0.38177082, y: 0.38177082}
+    m_Translation: {x: 366.5, y: 240.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -382
-      y: -240.5
-      width: 764
-      height: 481
+      x: -960.00006
+      y: -629.9591
+      width: 1920.0001
+      height: 1259.9182
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 764, y: 502}
+  m_defaultScale: 0.38177082
+  m_LastWindowPixelSize: {x: 733, y: 502}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -137,12 +136,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1011
+    width: 977
     height: 883
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 1281
+  controlID: -1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,12 +161,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1011
+    width: 977
     height: 523
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 1254
+  controlID: -1
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,7 +184,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 245
+    width: 242
     height: 523
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -216,7 +215,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 244
+    width: 241
     height: 502
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -225,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 4214ffff5a14ffff023fffff265dffff3e5dffff9c7cffff68adffff80adffff7cd5ffff16fbffff
+      m_SelectedIDs: 66750000
+      m_LastClickedID: 30054
+      m_ExpandedIDs: 46ddffff20e1ffff16fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -243,7 +242,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -266,9 +265,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 245
+    x: 242
     y: 0
-    width: 766
+    width: 735
     height: 523
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -298,9 +297,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 172
+    x: 242
     y: 73
-    width: 526
+    width: 733
     height: 502
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -536,9 +535,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 79.427986, y: 0.6334665, z: 3.1360433}
+    m_Target: {x: -0.25484738, y: 0.8541963, z: 0.29889342}
     speed: 2
-    m_Value: {x: 79.427986, y: 0.6334665, z: 3.1360433}
+    m_Value: {x: -0.25484738, y: 0.8541963, z: 0.29889342}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -580,18 +579,18 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.04565643, y: 0.62874043, z: -0.037015464, w: 0.7754256}
+    m_Target: {x: -0.1364551, y: 0.23679893, z: -0.033617392, w: -0.96135503}
     speed: 2
-    m_Value: {x: 0.045655202, y: 0.6287235, z: -0.037014466, w: 0.77540475}
+    m_Value: {x: -0.13645323, y: 0.23679568, z: -0.03361693, w: -0.96134186}
   m_Size:
-    m_Target: 9.190221
+    m_Target: 2.4308467
     speed: 2
-    m_Value: 9.190221
+    m_Value: 2.4308467
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -609,7 +608,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: 0.07037625, y: 0.5842604, z: -0.050964072, w: 0.80691785}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -633,10 +632,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 523
-    width: 1011
+    width: 977
     height: 360
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -665,7 +664,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 596
-    width: 1010
+    width: 976
     height: 339
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -684,22 +683,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/HDRPDefaultResources
+    - Assets/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/HDRPDefaultResources
+  - Assets/Materials
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: F:\UnityWork\New Unity Project
+  m_LastProjectPath: F:\UnityWork\Bouncy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 729a0000
-    m_LastClickedID: 39538
-    m_ExpandedIDs: 000000005098000000ca9a3b
+    m_SelectedIDs: 527c0000
+    m_LastClickedID: 31826
+    m_ExpandedIDs: 00000000ae750000527c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -727,7 +726,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005098000000ca9a3b
+    m_ExpandedIDs: 00000000ae75000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -752,9 +751,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 66750000
+    m_LastClickedInstanceID: 30054
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -771,7 +770,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -803,10 +802,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 596
+    width: 976
+    height: 339
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -821,17 +820,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1011
+    x: 977
     y: 0
-    width: 169
+    width: 303
     height: 883
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -857,9 +856,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1011
+    x: 977
     y: 73
-    width: 167
+    width: 302
     height: 862
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -878,352 +877,3 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TutorialWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1180
-    y: 0
-    width: 100
-    height: 883
-  m_MinSize: {x: 300, y: 300}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba8f85f9d6bbb46d180610e6061865df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 300, y: 300}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Tutorials
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1180
-    y: 73
-    width: 99
-    height: 862
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_AllParagraphs:
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: fe95a7a8bd7b1f44288442c6a4f60bee, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: HDRP Asset
-    Text:
-      m_Untranslated: 'Let''s see how the High Definition Render Pipeline has been
-        enabled for this project.
-
-
-        1. Go to <b>Edit</b> > <b>Project Settings</b>
-        > <b>Graphics.</b>
-
-
-        2. At the very top, you can see that an <i>HD
-        Render Pipeline Asset</i> has been assigned to the <i>Scriptable Render Pipeline
-        Settings.</i>'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 84dc168bb2ad3da4597621439ca7d4d7, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: HDRP Asset configuration
-    Text:
-      m_Untranslated: "It is highly recommended to turn off unused features in your
-        project to reduce the impact on performance, memory consumption and build
-        time.\n\n1. Go to <b>Edit</b> > <b>Project Settings</b> > <b>Quality</b> 
-        > <b>HDRP.</b>\n\n2. Select the <i>HDRPMediumQuality</i> asset. \n\n3. In
-        the <b>Lighting</b> foldout, disable the <b>Screen Space Ambient Occlusion.</b>\n\n4.
-        Notice the darkening effect on the plant, among others, disappears.\n\n5.
-        Re-enable the <b>Screen Space Ambient Occlusion.</b>"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 0af20b5291f94d54cb2690f236082cc8, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Quality Levels
-    Text:
-      m_Untranslated: "It is good practice to create several HDRP assets with different
-        settings for specific performance targets and platforms.\n\n1. Go to <b>Edit</b>
-        > <b>Project Settings</b> > <b>Quality.</b> We already provide 3 quality
-        levels: <b>High, Medium,</b> and <b>Low.</b> <b>Medium</b> is currently active
-        and marked as the default one. \n\n2. Switch to <b>Low Quality</b> and observe
-        the Fog disappeared. \n\nThis occurs because in the <b>Low Quality</b> level,
-        the Volumetric Fog is disabled. \n\n3. Change back to <b>Medium Quality.</b>\n\nAlternatively,
-        you can locate the <b>Low</b> asset in the Settings folder and verify that
-        indeed <b>Lighting</b> > <b>Volumetrics</b> is off in the <b>Low Quality</b>
-        level. You can also switch to the <b>High Quality</b> level and see how it
-        affects the overall shadow filtering quality and resolution."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 8f7cbea096e85fa40a9806bad7ad1ad7, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: HDRP Global Settings
-    Text:
-      m_Untranslated: "Settings for post-processing, Fog, Sky, etc. can be applied
-        to all scenes in this project by default, by using a <b>Default Volume Profile
-        Asset.</b> It is particulalry useful to rely on this system to ensure the
-        consistency of the HDRP settings between all the scenes.\n\n1. Go to <b>Edit</b>
-        > <b>Project Settings</b> > <b>Graphics</b> > <b>HDRP Global Settings</b>
-        and review the <b>Default Volume Profile Asset</b> assigned to the project.\n\n2.
-        Disable HDRI Sky. \n\nSee that the Sky in the Scene has now disappeared and
-        fallen back on the Background color defined in <b>Edit</b> > <b>Preferences</b>
-        > <b>Colors</b> (dark grey by default).\n\n3. Undo your changes.\n\nFor convenience
-        and quick access, we also added an instance of these settings in the Scene.
-        You can access them with the <i>Hierarchy,</i> in <b>Lighting</b> > <b>Volumes</b>
-        > <b>Volume Global.</b> "
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: da7e71977534a894e967ad6546baec62, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Frame Settings
-    Text:
-      m_Untranslated: "You can control exactly which HDRP features the cameras and
-        reflection probes can render, such as Rendering features, Post-Processing,
-        Lighting, LODs, etc.\n\n1. Go to <b>Edit</b> > <b>Project Settings</b> >
-        <b>Graphics</b> > <b>HDRP Global Settings.</b>\n\n2. Scroll down to the <b>Frame
-        Settings</b> section.\n\n3. Under  <b>Camera</b> > <b>Lighting</b> > <b>Rendering,</b>
-        disable the <b>Decals.</b>\n\nNote that the water puddles and other dirt
-        decals have disappears, now that the feature has been disabled for all cameras,
-        by default.\n\n4. Re-enable the <b>Decals.</b>\n\n\n<b>Expert Tips</b>\n\nEach
-        Camera and Reflection Probe component will let you override these default
-        settings, via the <b>Custom Frame Settings</b> checkbox.\n\nFor instance,
-        if a specific Reflection Probe in a Scene doesn't need to render Shadows
-        Maps, Decals, or Volumetric Clouds, make sure you disable these features
-        to maximize performance. \n\nYou may also tune the <b>Maximum LOD Level</b>
-        to prevent Realtime Reflections from rendering unnecessarily complex objects,
-        and recoup precious rendering time.\n\nMastering <b>Frame Settings</b> and
-        per-object <b>Custom Frame Settings</b> is crucial to reach an optimal framerate. "
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: fe95a7a8bd7b1f44288442c6a4f60bee, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Congratulations!
-    Text:
-      m_Untranslated: "In this tutorial, you learned the basics of HDRP settings.\n\nYou
-        can also watch  a<a href=\"https://youtu.be/yqCHiZrgKzs?t=243\">video</a>
-        tutorial to learn more about the Graphics settings.\n\nFor more details,
-        check out the corresponding documentation:\n\u2022<a href=\"https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@latest/index.html?subfolder=/manual/HDRP-Asset.html\">HDRP
-        assets</a>\n\u2022<a href=\"https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@latest/index.html?subfolder=/manual/Scalability-Manual.html\">Scalability
-        (Quality levels)</a>\n\u2022<a href=\"https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@latest/index.html?subfolder=/manual/Frame-Settings.html\">Frame
-        Settings</a>"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  m_ActiveContainer: {fileID: 11400000, guid: 938ffbc4ff2eabb48a668123d363dfe1, type: 2}
-  m_TutorialProjects: []
-  m_VisibleContainers:
-  - {fileID: 11400000, guid: 938ffbc4ff2eabb48a668123d363dfe1, type: 2}
-  m_ChildContainers: []
-  m_MaskingEnabled: 1
-  m_FarthestPageCompleted: 0
-  m_PlayModeChanging: 1
