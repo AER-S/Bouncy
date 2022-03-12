@@ -94,4 +94,18 @@ public class PlayerController : MonoBehaviour
         NormalTime();
         Release();
     }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.GetComponent<IDamageable>() != null)
+        {
+            (other.gameObject.GetComponent<IDamageable>()).TakeDamage();
+            ShootUp();
+        }
+    }
+
+    private void ShootUp()
+    {
+        _rigidbody.AddForce(Vector3.up*forceMax,ForceMode.Impulse);
+    }
 }
