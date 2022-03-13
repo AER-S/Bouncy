@@ -2,7 +2,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class CameraMovement : MonoBehaviour
+public class FollowTarget : MonoBehaviour
 {
         private PlayerController cameraTarget;
 

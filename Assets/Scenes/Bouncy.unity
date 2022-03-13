@@ -359,8 +359,10 @@ GameObject:
   m_Component:
   - component: {fileID: 965618960}
   - component: {fileID: 965618959}
+  - component: {fileID: 965618962}
+  - component: {fileID: 965618961}
   m_Layer: 0
-  m_Name: Players Manager
+  m_Name: Managers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -396,6 +398,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &965618961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965618958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1343de5f62d52c84791b29d94abb66b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeFactor: 0.1
+--- !u!114 &965618962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965618958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa89243ecb475914aa0c5827c903674c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1104669284
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,7 +433,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1104669286}
   - component: {fileID: 1104669285}
-  - component: {fileID: 1104669287}
+  - component: {fileID: 1104669289}
+  - component: {fileID: 1104669288}
   m_Layer: 0
   m_Name: Sky and Fog Global Volume
   m_TagString: Untagged
@@ -446,7 +474,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1104669287
+--- !u!114 &1104669288
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -455,12 +483,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 1104669284}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0507b27a75241ebb9e76b621cfc2abc, type: 3}
+  m_Script: {fileID: 11500000, guid: deca27e46a2c2834cad48536737007f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lerpDuration: 0.01
-  distortion: -0.33
-  aberration: 0.338
+  componentIndex: 1
+  effectsSpeed: 100
+  intensity: 0.33
+--- !u!114 &1104669289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104669284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b0c5a9cc87900448df67ddbe853102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentIndex: 0
+  effectsSpeed: 100
+  intensity: -0.33
 --- !u!1 &1266262663
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,6 +927,8 @@ GameObject:
   - component: {fileID: 1511710815}
   - component: {fileID: 1511710814}
   - component: {fileID: 1511710818}
+  - component: {fileID: 1511710819}
+  - component: {fileID: 1511710820}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -1050,7 +1095,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 15
+  orthographic size: 10
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -1074,7 +1119,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511710813}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 7.5, z: -40}
+  m_LocalPosition: {x: 0, y: 5.5, z: -40}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1097,8 +1142,37 @@ MonoBehaviour:
     min: -7.5
     max: 7.5
   yRange:
-    min: 7.5
+    min: 5.5
     max: 20
+--- !u!114 &1511710819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511710813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8901ee0b5711e438d2b1f251215be1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomSpeed: 10
+  zoomTo: 12
+--- !u!114 &1511710820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511710813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1ee1c62c905bb24ea7c9cf3d9d40b56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraumaExponent: 1
+  MaximumAngularShake: {x: 5, y: 5, z: 5}
+  MaximumTranslationShake: {x: 0.75, y: 0.75, z: 0.75}
 --- !u!4 &1527734433 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1212271468493316739, guid: aa1f883f96128db4fae4748715de28d1, type: 3}

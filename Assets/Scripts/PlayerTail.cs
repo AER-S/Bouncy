@@ -1,6 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class PlayerTail : MonoBehaviour
@@ -16,14 +14,14 @@ public class PlayerTail : MonoBehaviour
     private void OnEnable()
     {
         
-       PlayerController.StartPulling += StretchTime;
-       PlayerController.FinishedPulling += NormalTime;
+       TakeInputs.StartPulling += StretchTime;
+       TakeInputs.FinishedPulling += NormalTime;
     }
 
     private void OnDisable()
     {
-        PlayerController.StartPulling -= StretchTime;
-        PlayerController.FinishedPulling -= NormalTime;
+        TakeInputs.StartPulling -= StretchTime;
+        TakeInputs.FinishedPulling -= NormalTime;
     }
 
     private void Start()
@@ -45,7 +43,7 @@ public class PlayerTail : MonoBehaviour
 
     private void StretchTime()
     {
-        _timeFactor = 1 / _player.TimeFactor;
+        _timeFactor = 1 / TimeManager.Instance.TimeFactor;
     }
 
     private void NormalTime()

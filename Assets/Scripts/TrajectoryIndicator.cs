@@ -11,14 +11,14 @@ public class TrajectoryIndicator : MonoBehaviour
         private void OnEnable()
         {
                 
-                PlayerController.StartPulling += StartPulling;
-                PlayerController.FinishedPulling += EndPulling;
+                TakeInputs.StartPulling += StartPulling;
+                TakeInputs.FinishedPulling += EndPulling;
         }
 
         private void OnDisable()
         {
-                PlayerController.StartPulling -= StartPulling;
-                PlayerController.FinishedPulling -= EndPulling;
+                TakeInputs.StartPulling -= StartPulling;
+                TakeInputs.FinishedPulling -= EndPulling;
         }
 
         private void Start()
