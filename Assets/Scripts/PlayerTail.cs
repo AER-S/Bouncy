@@ -5,19 +5,57 @@ using UnityEngine;
 
 public class PlayerTail : MonoBehaviour
 {
-    [SerializeField] private PlayerController player;
     [SerializeField] private LineRenderer tail;
     [SerializeField] private int pointsCount;
 
-    private void Start()
+    private PlayerController _player;
+    private float _counter;
+
+    private float _timeFactor;
+
+    private void OnEnable()
     {
-        tail.positionCount = pointsCount;
+        
+       PlayerController.StartPulling += StretchTime;
+       PlayerController.FinishedPulling += NormalTime;
     }
 
-    private void FixedUpdate()
+    private void OnDisable()
     {
-        UpdateTail();
+        PlayerController.StartPulling -= StretchTime;
+        PlayerController.FinishedPulling -= NormalTime;
     }
+
+    private void Start()
+    {
+        _player = PlayerManager.Instance.Player;
+        tail.positionCount = pointsCount;
+        ResetCounter();
+    }
+
+    private void Update()
+    {
+        IncreaseCounter(Time.fixedDeltaTime);
+        if (_counter >= _timeFactor * Time.fixedDeltaTime)
+        {
+            UpdateTail();
+            ResetCounter();
+        }
+    }
+
+    private void StretchTime()
+    {
+        _timeFactor = 1 / _player.TimeFactor;
+    }
+
+    private void NormalTime()
+    {
+        _timeFactor = 1;
+    }
+
+    private void ResetCounter() => _counter = 0;
+
+    private void IncreaseCounter(float time) => _counter += time;
 
     private void UpdateTail()
     {
@@ -25,6 +63,6 @@ public class PlayerTail : MonoBehaviour
         {
             tail.SetPosition(i,tail.GetPosition(i-1));
         }
-        tail.SetPosition(0, player.transform.position);
+        tail.SetPosition(0, _player.transform.position);
     }
 }

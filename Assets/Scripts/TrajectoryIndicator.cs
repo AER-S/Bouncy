@@ -3,26 +3,27 @@ using UnityEngine;
 
 public class TrajectoryIndicator : MonoBehaviour
 {
-        [SerializeField] private PlayerController player;
         [SerializeField] private LineRenderer trajectory;
         [SerializeField] private int trajectorySteps;
         [SerializeField] private float timeStep;
-        private bool _pulling;
-
+        private PlayerController _player;
+        
         private void OnEnable()
         {
-                player.StartPulling += StartPulling;
-                player.FinishedPulling += EndPulling;
+                
+                PlayerController.StartPulling += StartPulling;
+                PlayerController.FinishedPulling += EndPulling;
         }
 
         private void OnDisable()
         {
-                player.StartPulling -= StartPulling;
-                player.FinishedPulling -= EndPulling;
+                PlayerController.StartPulling -= StartPulling;
+                PlayerController.FinishedPulling -= EndPulling;
         }
 
         private void Start()
         {
+                _player = PlayerManager.Instance.Player;
                 trajectory.enabled = false;
                 trajectory.positionCount = trajectorySteps;
         }
@@ -34,9 +35,9 @@ public class TrajectoryIndicator : MonoBehaviour
 
         private void CalculateTrajectory()
         {
-                Vector3 startPosition = player.transform.position;
-                Vector3 force = player.Force;
-                Vector3 startVelocity = force.normalized * (force.magnitude / player.Rigidbody.mass);
+                Vector3 startPosition = _player.transform.position;
+                Vector3 force = _player.Force;
+                Vector3 startVelocity = force.normalized * (force.magnitude / _player.Rigidbody.mass);
                 for (int i = 0; i < trajectorySteps; i++)
                 {
                         float t = timeStep * i;

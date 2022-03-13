@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public event Action StartPulling;
-    public event Action FinishedPulling;
+    public static event Action StartPulling;
+    public static event Action FinishedPulling;
     
     [SerializeField] private float forceMax;
     [SerializeField] private float forceFactor;
@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
 
     public Vector2 Force => _force;
     public Rigidbody Rigidbody => _rigidbody;
+    public float TimeFactor => timeFactor;
 
     #endregion
 

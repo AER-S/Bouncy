@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-        [SerializeField] private PlayerController cameraTarget;
+        private PlayerController cameraTarget;
 
         private Vector3 initialOffset;
         
@@ -20,6 +20,7 @@ public class CameraMovement : MonoBehaviour
 
         private void Start()
         {
+                cameraTarget = PlayerManager.Instance.Player;
                 initialOffset = transform.position - cameraTarget.transform.position;
         }
 

@@ -140,6 +140,7 @@ MonoBehaviour:
       singlePass: 1
       occlusionMesh: 1
       cameraJitter: 0
+      allowMotionBlur: 1
     postProcessQualitySettings:
       NearBlurSampleCount: 030000000400000005000000
       NearBlurMaxRadius:
@@ -157,7 +158,7 @@ MonoBehaviour:
       MotionBlurSampleCount: 04000000080000000c000000
       BloomRes: 040000000200000002000000
       BloomHighQualityFiltering: 000101
-      BloomHighQualityPrefiltering: 000001
+      BloomHighQualityPrefiltering: 000101
       ChromaticAberrationMaxSamples: 03000000060000000c000000
     lightSettings:
       useContactShadow:
